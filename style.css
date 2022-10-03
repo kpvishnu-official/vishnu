@@ -13,6 +13,7 @@ body {
     justify-content: space-around;
     padding: 20px;
     border-bottom: solid rgb(6, 41, 6);
+    background-color: aliceblue;
 }
 
 .sub-header {
@@ -26,7 +27,6 @@ body {
     flex-direction: column;
     justify-content: space-between;
     flex: .8;
-    align-items: center;
     padding: 10px auto;
 }
 
@@ -34,9 +34,16 @@ body {
     text-decoration: none;
     padding-top: 20px;
 }
+.menu-right > a {
+    text-decoration: none;
+    color: #999;
+}
+.menu-right > a:hover {
+    color: #555;
+}
 .content {
     height: 400px;
-    background-color: aqua;
+    padding: 5px;
 }
 
 .footer { 
@@ -49,3 +56,40 @@ body {
     align-items: center;
     padding: 20px;
 }
+
+.main-container {
+    padding: 10px;
+}
+.container {
+    background-color: #555;
+    height: 120px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    padding: 3px;
+}
+.container > img {
+    flex: .8;
+}
+.container > div {
+    flex: .2;
+}
+.container > div > p {
+    font-size: small;
+}
+ /* float */
+.f-left {
+    float: left;
+}
+.f-right {
+    float: right;
+}
+
+/* align-items */
+
+.al-center {
+    align-items: center;
+}
+
+/* text size */
+
