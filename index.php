@@ -1,5 +1,4 @@
-<php include '/prepend.php'; ?>
-<?php print_r($header); ?>
+<?php include 'header.php' ?>
 <body>
     <div id="Header" class="header">
         <div class="sub-header">
@@ -31,4 +30,4 @@
             </div>
         </div>
     </div>
-    <?php print_r($footer); ?>
+    <?php include 'footer.php' ?>
