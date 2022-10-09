@@ -22,6 +22,11 @@
                         </div>
                     </div>
                 </div>
+
+                <form action="formSubmitPage.php" method="post">
+                    inp
+                </form>
+                
             <!-- // Todo:: Content should be updated -->
             <div id="About">
                 <h2>About Me</h2>
