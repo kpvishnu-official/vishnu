@@ -6,4 +6,4 @@ echo '<div class="footer">
 </div>
 </div>
 </body>
-</html>';
+</html>';///home/vishnu/Desktop/vishnu.git/vishnu.local/footer.php
