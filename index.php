@@ -24,7 +24,10 @@
                 </div>
 
                 <form action="formSubmitPage.php" method="post">
-                    inp
+                    <label>Name: <input type="text" required></label>
+                    <label>Date of Birth: <input type="birth" required></label>
+                    <label>Location: <select><option>Select any number</option></select></label>
+                    <input type="submit">
                 </form>
                 
             <!-- // Todo:: Content should be updated -->
