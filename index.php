@@ -63,7 +63,7 @@
                     </div>
                 </div>
                 <form action="/formSubmitPage.php" method="GET">
-                    <label>Name: <input type="submit">ut type="text" required></label>
+                    <label>Name: <input type="text" name="name" id="name"></label>
                     <label for="">
                         Date : 
                         <input type="datetime-local" name="date-time" id="date-time">
