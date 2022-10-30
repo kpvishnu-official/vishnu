@@ -1,5 +1,14 @@
 <?php 
-// include 'formSubmitPage.php';
+$site = [
+    'title' => 'new title',
+    'meta_content' => 'new Meta Content',
+    'heading' => 'new Heading',
+    'style_sheet' => [
+        '../assets/css/astrology-home.css'
+    ]
+];
+include 'common.tpl.php';
+echo $header;
 
 $tpl_view = isset($_GET['process']) ? 'result' : 'home';
 if ('home' === $tpl_view): ?>
@@ -20,4 +29,3 @@ if ('home' === $tpl_view): ?>
 <?php elseif ('result' === $tpl_view): ?>
     result test
 <?php endif; ?>
-hello
